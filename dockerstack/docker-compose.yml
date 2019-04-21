@@ -6,16 +6,16 @@ services:
     ports:
       - "50000:80"
     deploy:
-      replicas: 3
+      replicas: 1
   p01:
     image: p01firmware_main:latest
     ports:
       - "50100:8000"
     deploy:
-      replicas: 3
+      replicas: 1
   p04:
     image: p04coderunner_main:latest
     ports:
       - "50400:80"
     deploy:
-      replicas: 3
+      replicas: 1 

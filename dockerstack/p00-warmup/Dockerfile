@@ -21,6 +21,9 @@ RUN chmod 555 /sanity.sh
 RUN apt install -y apache2 php libapache2-mod-php
 COPY src/app /app
 
+### for my personal comfort
+RUN apt install -y vim-tiny
+
 # Flag placeholder
 RUN mkdir /var/flag
 RUN printf "CJ2018{flag}" > /var/flag/00000000000000000000000000000000
