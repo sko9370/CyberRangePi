@@ -1,1 +1,0 @@
-Please patch index.php!

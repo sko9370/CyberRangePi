@@ -1,6 +1,6 @@
 echo building images
 
-cd ../p00-warmup
+cd examples/CJ2018-Final-CTF-master/p00-warmup
 docker build -t p00 . > /dev/null
 
 cd ../p01-firmware
@@ -38,5 +38,8 @@ docker build -t p11 .
 
 cd ../../docker-swarm-visualizer
 docker build -t viz:latest .
+
+cd ../docker-vulnerable-dvwa
+docker build -t dvwa:latest .
 
 echo !!!!!!!!!!!!!! Please wait until the builds finish !!!!!!!!!!!!!!!
