@@ -14,6 +14,23 @@ Setup
 6. check the IP of the 'manager' node at port 8080 in the browser to view a "visualizer" of the range
 7. run either 'red.sh' or 'blue.sh' to start the relevant containers
 
+docker swarm visualizer
+https://github.com/dockersamples/docker-swarm-visualizer
+
+CTF examples
+https://github.com/farisv/CJ2018-Final-CTF
+
+DVWA
+https://github.com/opsxcq/docker-vulnerable-dvwa
+
+example cluster
+https://howchoo.com/g/njy4zdm3mwy/how-to-run-a-raspberry-pi-cluster-with-docker-swarm
+
+more inspiration
+https://ashishchaudhary.in/dockerizing-a-ctf
+https://github.com/mfthomps/Labtainers
+
+
 ## TODO
 
 1. only deploy range containers on worker nodes to keep student from accessing build files
