@@ -1,0 +1,71 @@
+version: '3'
+
+services:
+  p00:
+    image: p00:latest
+    ports:
+      - "50000:80"
+    deploy:
+      replicas: 1
+  p01:
+    image: p01:latest
+    ports:
+      - "50100:8000"
+    deploy:
+      replicas: 1
+  p03:
+    image: p03:latest
+    ports:
+      - "50300:80"
+    deploy:
+      replicas: 1 
+  p04:
+    image: p04:latest
+    ports:
+      - "50400:80"
+    deploy:
+      replicas: 1 
+  p05:
+    image: p05:latest
+    ports:
+      - "50500:8000"
+    deploy:
+      replicas: 1 
+  p06:
+    image: p06:latest
+    ports:
+      - "50600:8000"
+    deploy:
+      replicas: 1 
+  p07:
+    image: p07:latest
+    ports:
+      - "50700:8000"
+    deploy:
+      replicas: 1
+  p08:
+    image: p08:latest
+    ports:
+      - "50800:80"
+    deploy:
+      replicas: 1 
+  p09:
+    image: p09:latest
+    ports:
+      - "50900:8000"
+    deploy:
+      replicas: 1 
+  p10:
+    image: p10:latest
+    ports:
+      - "51000:80"
+    deploy:
+      replicas: 1 
+  viz:
+    image: viz:latest
+    ports:
+      - "8080:8080"
+    deploy:
+      replicas: 1
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"

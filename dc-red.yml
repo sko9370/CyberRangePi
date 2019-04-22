@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  dvwa:
+    image: dvwa:latest
+    ports:
+      - "80:80"
+    deploy:
+      replicas: 1
