@@ -6,8 +6,8 @@ docker build -t p00 . > /dev/null
 cd ../p01-firmware
 docker build -t p01 . > /dev/null
 
-cd ../p02-sandbox
-docker build -t p02 . > /dev/null
+#cd ../p02-sandbox
+#docker build -t p02 . > /dev/null
 
 cd ../p03-imagemanipulator
 docker build -t p03 . > /dev/null
@@ -33,8 +33,8 @@ docker build -t p09 . > /dev/null
 cd ../p10-assignment
 docker build -t p10 . > /dev/null
 
-cd ../p11-zeus
-docker build -t p11 .
+#cd ../p11-zeus
+#docker build -t p11 .
 
 cd ../../docker-swarm-visualizer
 docker build -t viz:latest .

@@ -13,24 +13,6 @@ services:
       - "50100:8000"
     deploy:
       replicas: 1
-  p03:
-    image: p04coderunner_main:latest
-    ports:
-      - "50400:80"
-    deploy:
-      replicas: 1 
-  p04:
-    image: p04coderunner_main:latest
-    ports:
-      - "50400:80"
-    deploy:
-      replicas: 1 
-  p04:
-    image: p04coderunner_main:latest
-    ports:
-      - "50400:80"
-    deploy:
-      replicas: 1 
   p04:
     image: p04coderunner_main:latest
     ports:
