@@ -1,7 +1,27 @@
 # Docker Cyber Range
 
-I initially believed that I couldn't use any docker images that were made in non-ARMv7 architectures.
-While that is true, if I "build" the docker images myself using the dockerfiles that are usually attached to those images that I want to use, then the images run perfectly fine.
+## 21 APR
+
+Using Docker swarm and existing Docker CTF containers, I was able to demonstrate that Raspberry Pi clusters are a viable option for hosting cyber ranges.
+
+Setup
+1. setup each RPI with Docker and add default user 'pi' to group using 'nodesetup.sh'
+2. build Docker images for all the containers used in this demo using 'build.sh'
+3. choose a 'manager' node and run 'docker swarm init' (probably the one with all the images)
+4. copy and paste the resulting token into all other nodes, sorry no script for this!
+5. back to the 'manager' node, run either 'blue.sh' or 'red.sh' to start the relevant containers
+	a. Docker swarm will automatically load-balance the containers
+6. check the IP of the 'manager' node at port 8080 in the browser to view a "visualizer" of the range
+7. run either 'red.sh' or 'blue.sh' to start the relevant containers
+
+## TODO
+
+1. only deploy range containers on worker nodes to keep student from accessing build files
+
+## old log
+
+I initially believed that I couldn't use any Docker images that were made in non-ARMv7 architectures.
+While that is true, if I "build" the Docker images myself using the dockerfiles that are usually attached to those images that I want to use, then the images run perfectly fine.
 It does take some time to build and uses up some data, but it is enough to be hosted.
 
 Possible list of vulnerable environments, but these use docker-compose so more testing necessary.
