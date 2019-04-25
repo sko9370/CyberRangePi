@@ -28,8 +28,10 @@ https://howchoo.com/g/njy4zdm3mwy/how-to-run-a-raspberry-pi-cluster-with-docker-
 
 more inspiration
 https://ashishchaudhary.in/dockerizing-a-ctf
+
 https://github.com/mfthomps/Labtainers
 
+https://github.com/OJ/bsides-2017-ctf-docker
 
 ## TODO
 
