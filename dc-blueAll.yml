@@ -31,10 +31,22 @@ services:
       - "50500:8000"
     deploy:
       replicas: 1 
-  08:
+  p06:
+    image: sko9370/rpi:p06
+    ports:
+      - "50600:8000"
+    deploy:
+      replicas: 1 
+  p08:
     image: sko9370/rpi:p08
     ports:
       - "50800:80"
+    deploy:
+      replicas: 1 
+  p09:
+    image: sko9370/rpi:p09
+    ports:
+      - "50900:8000"
     deploy:
       replicas: 1 
   p10:
