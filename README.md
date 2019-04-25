@@ -8,6 +8,8 @@ https://cloud.docker.com/repository/docker/sko9370/rpi/general
 TODO: Describe setup steps in detail
 Unable to manually verify that all containers are working as they are supposed to (CTF challenges are too difficult with no solution published in English).
 
+Examples p02, p11 are not currently compatible because of extra security settings done in docker-compose that docker swarm does not recognize. Could be done in isolation using docker-compose, but that requires another installation. Example p07 does not work because it does not build properly, at least on ARM.
+
 ## 21 APR
 
 Using Docker swarm and existing Docker CTF containers, I was able to demonstrate that Raspberry Pi clusters and, by consequence, other ARM single board computer clusters are a viable option for hosting cyber ranges.

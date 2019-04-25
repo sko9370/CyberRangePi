@@ -2,67 +2,61 @@ version: '3'
 
 services:
   p00:
-    image: p00:latest
+    image: sko9370/rpi:p00
     ports:
       - "50000:80"
     deploy:
       replicas: 1
   p01:
-    image: p01:latest
+    image: sko9370/rpi:p01
     ports:
       - "50100:8000"
     deploy:
       replicas: 1
   p03:
-    image: p03:latest
+    image: sko9370/rpi:p03
     ports:
       - "50300:80"
     deploy:
       replicas: 1 
   p04:
-    image: p04:latest
+    image: sko9370/rpi:p04
     ports:
       - "50400:80"
     deploy:
       replicas: 1 
   p05:
-    image: p05:latest
+    image: sko9370/rpi:p05
     ports:
       - "50500:8000"
     deploy:
       replicas: 1 
   p06:
-    image: p06:latest
+    image: sko9370/rpi:p06
     ports:
       - "50600:8000"
     deploy:
       replicas: 1 
-  p07:
-    image: p07:latest
-    ports:
-      - "50700:8000"
-    deploy:
-      replicas: 1
   p08:
-    image: p08:latest
+    image: sko9370/rpi:p08
     ports:
       - "50800:80"
     deploy:
       replicas: 1 
   p09:
-    image: p09:latest
+    image: sko9370/rpi:p09
     ports:
       - "50900:8000"
     deploy:
       replicas: 1 
   p10:
-    image: p10:latest
+    image: sko9370/rpi:p10
     ports:
       - "51000:80"
     deploy:
       replicas: 1 
   viz:
-    image: viz:latest
+    image: sko9370/rpi:viz
     ports:
       - "8080:8080"
     deploy:
