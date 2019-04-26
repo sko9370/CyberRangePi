@@ -4,8 +4,13 @@
 
 [Link to Parts Readme](https://github.com/sko9370/CyberRangePi/blob/master/Parts.md)
 
-Screenshots
-![redtest visualizer](https://github.com/sko9370/CyberRangePi/blob/master/redtest%20viz.PNG)
+# Screenshots
+
+![redtest visualizer](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/redtest%20viz.PNG)
+![dvwa login](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/dvwa.PNG)
+![dvwa 01](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/dvwa%20command%20injection%2001.PNG)
+![dvwa 02](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/dvwa%20command%20injection%2002.PNG)
+![dvwa 03](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/dvwa%20command%20injection%2003.PNG)
 
 ## 24 APR
 
