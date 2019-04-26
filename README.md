@@ -1,5 +1,12 @@
 # Docker Cyber Range
 
+## 25 APR
+
+[Link to Parts Readme](https://github.com/sko9370/CyberRangePi/Parts.md)
+
+Screenshots
+![redtest visualizer](https://github.com/sko9370/CyberRangePi/blob/master/redtest%20viz.PNG)
+
 ## 24 APR
 
 Pre-built images are uploaded to Docker Hub.
