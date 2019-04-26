@@ -2,7 +2,7 @@
 
 ## 25 APR
 
-[Link to Parts Readme](https://github.com/sko9370/CyberRangePi/Parts.md)
+[Link to Parts Readme](https://github.com/sko9370/CyberRangePi/blob/master/Parts.md)
 
 Screenshots
 ![redtest visualizer](https://github.com/sko9370/CyberRangePi/blob/master/redtest%20viz.PNG)
