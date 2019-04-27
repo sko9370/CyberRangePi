@@ -5,7 +5,7 @@ Using Docker swarm and existing Docker CTF containers, I was able to demonstrate
 This range was tested on a 4-node and 5-node Raspberry Pi cluster running Raspbian Stretch with 8gb microSD cards.
 
 ## Setup
-1. setup each RPI with Docker and add default user 'pi' to group by running 'nodesetup.sh'
+1. setup each RPI with Docker and add default user 'pi' to group by running 'nodesetup.sh' from tools
 	- sh nodesetup.sh
 2. designate a 'manager' node and on it run 'docker swarm init'
 3. copy, paste, and execute the resulting output (should look like 'docker swarm join ...') into other nodes
