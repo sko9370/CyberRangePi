@@ -4,7 +4,7 @@ services:
   dvwa1:
     image: sko9370/rpi:dvwa 
     ports:
-      - "81:80"
+      - "71:80"
     deploy:
       replicas: 1
       placement:
@@ -13,7 +13,7 @@ services:
   dvwa2:
     image: sko9370/rpi:dvwa 
     ports:
-      - "82:80"
+      - "72:80"
     deploy:
       replicas: 1
       placement:
@@ -22,20 +22,9 @@ services:
   dvwa3:
     image: sko9370/rpi:dvwa 
     ports:
-      - "83:80"
+      - "73:80"
     deploy:
       replicas: 1
       placement:
         constraints:
           - node.role == worker
-  viz:
-    image: sko9370/rpi:viz 
-    ports:
-      - "8080:8080"
-    deploy:
-      replicas: 1
-      placement:
-        constraints:
-          - node.role == manager
-    volumes:
-      - "/var/run/docker.sock:/var/run/docker.sock"
