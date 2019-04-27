@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  dvwa1:
+    image: sko9370/rpi:dvwa 
+    ports:
+      - "91:80"
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == worker
+  dvwa2:
+    image: sko9370/rpi:dvwa 
+    ports:
+      - "92:80"
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == worker
+  viz:
+    image: sko9370/rpi:viz
+    ports:
+      - "8080:80"
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager 
