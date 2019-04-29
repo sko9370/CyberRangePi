@@ -2,7 +2,7 @@
 
 Using Docker swarm and existing Docker CTF containers, I was able to demonstrate that Raspberry Pi clusters and, by consequence, other ARM single board computer clusters are a viable option for hosting cyber ranges.
 
-Setup
+## Setup
 1. setup each RPI with Docker and add default user 'pi' to group by running 'nodesetup.sh'
 	- sh nodesetup.sh
 2. designate a 'manager' node and on it run 'docker swarm init'
@@ -36,7 +36,7 @@ https://cloud.docker.com/repository/docker/sko9370/rpi/general
 
 [Link to Parts Readme](https://github.com/sko9370/CyberRangePi/blob/master/Parts.md)
 
-# Screenshots
+## Screenshots
 
 ![redtest visualizer](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/redtest%20viz.PNG)
 ![dvwa login](https://github.com/sko9370/CyberRangePi/blob/master/Screenshots/dvwa.PNG)
