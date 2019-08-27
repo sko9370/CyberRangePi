@@ -18,7 +18,7 @@ This range was tested on a 4-node and 5-node Raspberry Pi cluster running Raspbi
 An experimental blue.sh exists as well that deploys CTF challenges from CJ2018-Final linked below but they have not been verified. They are above my level of skill to solve and the write-ups are in Balinese.
 
 Pre-built images are uploaded to Docker Hub.
-https://cloud.docker.com/repository/docker/sko9370/rpi/general
+https://hub.docker.com/r/sko9370/rpi
 
 [Link to Parts Readme](https://github.com/sko9370/CyberRangePi/blob/master/Parts.md)
 
